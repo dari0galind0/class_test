@@ -1,0 +1,23 @@
+---
+title: "coding_exercise"
+author: "Dario Galindo"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+source("set_up.R")
+
+```
+
+```{r}
+data("knz_bison")
+
+```
+
